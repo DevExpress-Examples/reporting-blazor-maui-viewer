@@ -1,3 +1,7 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/649738377/2023.1)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Reporting for MAUI Blazor - Simple Report Viewer Application
 
 This example is a .NET MAUI application that uses DevExpress Reporting libraries to create a report and display it in the Report Viewer.
