@@ -1,0 +1,21 @@
+﻿@page "/reportviewer/"
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.Blazor.Reporting.Viewer.Internal.Services;
+@using DevExpress.XtraReports.UI
+@using DxReportViewerMauiApp.PredefinedReports
+
+<DxReportViewer @ref="reportViewer" Report="Report" SizeMode="DevExpress.Blazor.SizeMode.Small">
+</DxReportViewer>
+
+@code {
+    DxReportViewer reportViewer;
+    XtraReport Report = new CachedDocumentSourceReport.Report();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+            await reportViewer.UpdateZoomAsync(0.5);
+        await base.OnAfterRenderAsync(firstRender);
+    }
+}

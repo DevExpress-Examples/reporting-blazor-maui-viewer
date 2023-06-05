@@ -1,0 +1,13 @@
+using Foundation;
+using DevExpress.Blazor.Reporting.Services;
+
+namespace DxReportViewerMauiApp;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate {
+    protected override MauiApp CreateMauiApp() {
+        var builder = MauiProgram.CreateMauiApp();
+        //builder.Services.AddScoped<IExportProcessor, MacOSExportProcessor>();
+        return builder.Build();
+    }
+}
