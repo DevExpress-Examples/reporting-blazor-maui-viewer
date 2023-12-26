@@ -1,4 +1,4 @@
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
+namespace DxReportViewerMauiApp.Data {
     class DeterministicRandom {
         const int randomCount = 10000;
         static readonly int[] deterministicRandomNumbers;

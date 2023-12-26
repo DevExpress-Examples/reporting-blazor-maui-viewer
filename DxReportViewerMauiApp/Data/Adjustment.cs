@@ -1,8 +1,6 @@
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
-    public class Adjustment
-    {
-        public static Adjustment CreateBalanceForward(DateTime dt, int random)
-        {
+namespace DxReportViewerMauiApp.Data {
+    public class Adjustment {
+        public static Adjustment CreateBalanceForward(DateTime dt, int random) {
             var rnd = new DeterministicRandom(random);
             Adjustment res = new Adjustment();
             res.currentDateTime = dt;
@@ -10,8 +8,7 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
             res.currentAmount = rnd.Random(10, 300) * 10;
             return res;
         }
-        public static Adjustment CreatePayment(DateTime dt, int random)
-        {
+        public static Adjustment CreatePayment(DateTime dt, int random) {
             var rnd = new DeterministicRandom(random);
             Adjustment res = new Adjustment();
             res.currentDateTime = dt;
@@ -19,8 +16,7 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
             res.currentAmount = -rnd.Random(1, 40) * 10;
             return res;
         }
-        public static Adjustment CreateCharge(DateTime dt, int random)
-        {
+        public static Adjustment CreateCharge(DateTime dt, int random) {
             var rnd = new DeterministicRandom(random);
             Adjustment res = new Adjustment();
             res.currentDateTime = dt;
@@ -37,8 +33,7 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
         public string Description { get { return currentDescription; } }
         public double Amount { get { return currentAmount; } }
 
-        public Adjustment()
-        {
+        public Adjustment() {
         }
     }
 }

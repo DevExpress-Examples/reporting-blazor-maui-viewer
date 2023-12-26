@@ -1,4 +1,4 @@
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
+namespace DxReportViewerMauiApp.Data {
     public class DataItem {
         static readonly string[] accountType = new string[] { "Energy", "Manufacturing", "Estate", "Food", "Services" };
         public string CustomerID { get; set; }

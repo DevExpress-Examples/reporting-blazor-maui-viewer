@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
+namespace DxReportViewerMauiApp.Data {
     public class DataItemList : IList<DataItem>, IList {
         readonly int rowCount;
 

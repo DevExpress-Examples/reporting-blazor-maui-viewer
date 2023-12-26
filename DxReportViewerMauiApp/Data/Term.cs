@@ -1,4 +1,4 @@
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
+namespace DxReportViewerMauiApp.Data {
     public struct Term {
         public static readonly Term[] Terms = new Term[] {
             new Term("Payment seven days after invoice date" ),

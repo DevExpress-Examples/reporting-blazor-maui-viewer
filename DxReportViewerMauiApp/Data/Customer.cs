@@ -1,7 +1,7 @@
 using DevExpress.DataAccess.Sql;
 using DevExpress.DataAccess.Sql.DataApi;
 
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
+namespace DxReportViewerMauiApp.Data {
     public class Customer {
         static List<Customer> currentCustomers = new List<Customer>();
 

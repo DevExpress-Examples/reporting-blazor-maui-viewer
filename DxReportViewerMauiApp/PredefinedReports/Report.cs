@@ -1,5 +1,4 @@
-using DevExpress.XtraReports.UI;
-namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
+﻿using DevExpress.XtraReports.UI;
     public class Report : XtraReport {
         private TopMarginBand topMarginBand1;
         private XRPageInfo xrPageInfo4;
@@ -91,7 +90,7 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
             DevExpress.DataAccess.ObjectBinding.ObjectConstructorInfo objectConstructorInfo1 = new();
             DevExpress.DataAccess.ObjectBinding.Parameter parameter1 = new();
             this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
-            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();  
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.detailBand1 = new DevExpress.XtraReports.UI.DetailBand();
             this.detailReportBand1 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.xrPageInfo4 = new DevExpress.XtraReports.UI.XRPageInfo();
@@ -747,8 +746,8 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
             // xrTable2
             // 
             this.xrTable2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.xrTable2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
+            this.xrTable2.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top)
+            | DevExpress.XtraPrinting.BorderSide.Right)
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable2.BorderWidth = 1.2F;
             this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(4.238557E-05F, 0F);
@@ -1082,7 +1081,7 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
             objectConstructorInfo1.Parameters.AddRange(new DevExpress.DataAccess.ObjectBinding.Parameter[] {
             parameter1});
             this.objectDataSource1.Constructor = objectConstructorInfo1;
-            this.objectDataSource1.DataSource = typeof(DxReportViewerMauiApp.CachedDocumentSourceReport.DataItemList);
+            this.objectDataSource1.DataSource = typeof(DxReportViewerMauiApp.Data.DataItemList);
             this.objectDataSource1.Name = "objectDataSource1";
             // 
             // Title
@@ -1195,4 +1194,4 @@ namespace DxReportViewerMauiApp.CachedDocumentSourceReport {
 
         }
     }
-}
+

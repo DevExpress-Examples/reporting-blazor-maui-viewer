@@ -10,11 +10,10 @@
 
 @code {
     DxReportViewer reportViewer;
-    XtraReport Report = new CachedDocumentSourceReport.Report();
+    XtraReport Report = new Report();
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if(firstRender)
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender)
             await reportViewer.UpdateZoomAsync(0.5);
         await base.OnAfterRenderAsync(firstRender);
     }
