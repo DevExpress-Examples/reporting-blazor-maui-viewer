@@ -52,7 +52,7 @@
     <ItemGroup>
         <PackageReference Include="DevExpress.Blazor.Reporting.Viewer" Version="23.2.3" />
         <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.3" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.*-* />
         <PackageReference Include="SkiaSharp" Version="2.88.*-*" />
         <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.*-*" />
         <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.*-*" />
