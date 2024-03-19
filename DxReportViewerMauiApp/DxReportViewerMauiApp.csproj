@@ -49,11 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="2.8.2.3" />
-    <PackageReference Include="SkiaSharp" Version="2.88.3" />
-    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.3" />
-    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="2.88.3" />
-    <PackageReference Include="SkiaSharp.Views" Version="2.88.3" />
-    <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.3" />
+    <PackageReference Include="SkiaSharp" Version="2.88.*-*" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.*-*" />
+    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="2.88.*-*" />
+    <PackageReference Include="SkiaSharp.Views" Version="2.88.*-*" />
+    <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.*-*" />
     <NativeFileReference Include="$(HarfBuzzSharpStaticLibraryPath)\2.0.23\*.a" />
     <None Remove="Platforms\Android\Resources\xml\provider_paths.xml" />
     <None Remove="Resources\Fonts\segoeui.ttf" />
@@ -66,15 +66,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.5" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
-    <PackageReference Include="SkiaSharp.NativeAssets.Android" Version="2.88.3">
+    <PackageReference Include="SkiaSharp.NativeAssets.Android" Version="2.88.*-*">
     </PackageReference>
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-maccatalyst'">
-    <PackageReference Include="SkiaSharp.NativeAssets.MacCatalyst" Version="2.88.3">
+    <PackageReference Include="SkiaSharp.NativeAssets.MacCatalyst" Version="2.88.*-*">
     </PackageReference>
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
-    <PackageReference Include="SkiaSharp.NativeAssets.iOS" Version="2.88.3">
+    <PackageReference Include="SkiaSharp.NativeAssets.iOS" Version="2.88.*-*">
     </PackageReference>
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' != 'net7.0-ios'">
