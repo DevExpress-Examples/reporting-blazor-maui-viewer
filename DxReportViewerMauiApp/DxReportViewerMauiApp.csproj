@@ -52,18 +52,18 @@
     <ItemGroup>
         <PackageReference Include="DevExpress.Blazor.Reporting.Viewer" Version="23.2.3" />
         <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.3" />
-        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.*-*" />
-        <PackageReference Include="SkiaSharp" Version="2.88.*-*" />
-        <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.*-*" />
-        <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.*-*" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+        <PackageReference Include="SkiaSharp" Version="2.88.6" />
+        <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.6" />
+        <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.6" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
       <PackageReference Include="HarfBuzzSharp.NativeAssets.Android">
-        <Version>7.3.*-*</Version>
+        <Version>7.3.0.1</Version>
       </PackageReference>
       <PackageReference Include="SkiaSharp.NativeAssets.Android">
-        <Version>2.88.*-*</Version>
+        <Version>2.88.6</Version>
       </PackageReference>
     </ItemGroup>
 
