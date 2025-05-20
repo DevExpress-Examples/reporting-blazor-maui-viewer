@@ -49,10 +49,10 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net8.0-android'">
     <PackageReference Include="HarfBuzzSharp.NativeAssets.Android">
-      <Version>7.3.*-*</Version>
+      <Version>*</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp.NativeAssets.Android">
-      <Version>2.88.*-*</Version>
+      <Version>*</Version>
     </PackageReference>
   </ItemGroup>
 </Project>
