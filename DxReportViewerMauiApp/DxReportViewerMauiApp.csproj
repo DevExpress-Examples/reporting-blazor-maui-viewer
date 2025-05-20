@@ -43,9 +43,9 @@
     <PackageReference Include="DevExpress.Blazor.Reporting.Viewer" Version="24.2.*-*" />
     <PackageReference Include="DevExpress.Drawing.Skia" Version="24.2.*-*" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-    <PackageReference Include="SkiaSharp" Version="2.88.*-*" />
-    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.*-*" />
-    <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.*-*" />
+    <PackageReference Include="SkiaSharp" Version="*" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="*" />
+    <PackageReference Include="SkiaSharp.Views.Blazor" Version="*" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net8.0-android'">
     <PackageReference Include="HarfBuzzSharp.NativeAssets.Android">
