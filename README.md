@@ -18,7 +18,7 @@ This example is a .NET MAUI application that uses DevExpress Reporting libraries
 - [SharedExportProcessor.cs](DxReportViewerMauiApp/SharedReportExportProcessor.cs)
 
 ## Documentation
-- [Use Reporting Tools in .NET MAUI Applications (macOS, iOS, Android)](https://docs.devexpress.com/XtraReports/404425/dot-net-maui-reporting/use-reporting-in-maui-apps?v=23.1)
+- [Use Reporting Tools in .NET MAUI Applications (macOS, iOS, Android)](https://docs.devexpress.com/XtraReports/404425/dot-net-maui-reporting/use-reporting-in-maui-apps)
 - [MAUI Blazor App](https://docs.devexpress.com/Blazor/404121/get-started/blazor-hybrid/maui-blazor-app)
 
 ## More Examples
@@ -31,3 +31,4 @@ This example is a .NET MAUI application that uses DevExpress Reporting libraries
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
