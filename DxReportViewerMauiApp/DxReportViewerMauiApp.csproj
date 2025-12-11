@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
     <PackageReference Include="DevExpress.Blazor.Reporting.Viewer" Version="24.2.*-*" />
     <PackageReference Include="DevExpress.Drawing.Skia" Version="24.2.*-*" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
