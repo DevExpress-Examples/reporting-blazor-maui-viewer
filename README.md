@@ -25,7 +25,7 @@ This example is a .NET MAUI application that uses DevExpress Reporting libraries
 
 - [Use DevExpress MAUI and Blazor Components to Create a .NET MAUI Blazor Hybrid app](https://github.com/DevExpress-Examples/blazor-maui-hybrid-app)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-blazor-maui-viewer&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-blazor-maui-viewer&~~~was_helpful=no)
 
